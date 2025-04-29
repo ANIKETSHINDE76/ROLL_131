@@ -1,0 +1,53 @@
+bookstore{
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: linear-gradient(90deg,rgb(70, 160, 193),rgb(100, 179, 216));
+}
+row{
+    display: flex;
+    gap:40px;
+    justify-self: center;
+    align-items: center;
+}
+column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+name{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    padding: 20px;
+}
+book{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 200px;
+    height: 180px;
+    padding: 5px;
+    border:2px solid black ;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px rgba(24, 24, 24,0.5);
+    background: linear-gradient(45deg,rgb(70, 160, 193),rgb(141, 216, 100));
+   
+}
+
+title,author,publisher,price{
+    display: block;
+}
+book:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    background: linear-gradient(45deg,rgb(70, 160, 193),rgb(181, 179, 60));;
+}

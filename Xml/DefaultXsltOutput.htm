@@ -1,0 +1,301 @@
+﻿<HTML xmlns:dt="http://www.w3.org/2001/XMLSchema-instance" xmlns:d2="urn:schemas-microsoft-com:datatypes">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <STYLE>
+          
+    body {font-family:Courier New;font-size:10pt;margin-right:1.5em;background:AliceBlue}
+    .c{ }
+    .m{color:#505050}                   /* markup */
+    .b{color:red;font-weight:bold;text-decoration:none}  /* non breaking space */
+    .e{margin-left:1em;text-indent:-1em;margin-right:1em}  /* expandable */
+    .k{margin-left:1em;text-indent:-1em;margin-right:1em}  /* outer comment (non-expandable)? */
+    .at{color:Maroon}          /* attribute name */
+    .av {color:Black;}       /* attribute value */
+    .t {color:#004080}                 /* element name */
+    .tx{color:Black}   /* text content */
+    .pi{color:Purple}                      /* pi name and content */
+    .ci{color:Green}                 /* comment value */    
+    .side{background-color:#FFFACD}   /* intro div */    
+    .outputtip { display:block }
+    a { color:#004080 }
+    a:visited { color:Purple }
+    a:hover { color:Purple }
+    pre {margin:0px;display:inline}
+        </STYLE>
+  </HEAD>
+  <BODY class="st">
+    <div style="padding:5px;" class="side tx">
+          
+            Your XML document contains no xml-stylesheet processing instruction. To provide
+            an <a href="https://www.tutorialspoint.com/xslt/index.htm" target="_new">XSLT transform</a>, add the following to the top of your file and edit the href
+            attribute accordingly:
+
+            <pre><span class="m">&lt;?</span><span class="pi">xml-stylesheet</span> <span class="at">type</span><span class="m">="</span><span class="av">text/xsl</span><span class="m">" </span><span class="at">href</span><span class="m">="</span><span class="av">stylesheet.xsl</span><span class="m">" ?&gt;</span></pre>
+      <p>
+            You can also enter the XSLT file name using the above "XSLT Location:" text box, but this will not
+            persist with your XML document.
+          </p>
+      <div class="outputtip">
+            You can specify a default output file name using the following in your XML documents:
+            <pre><span class="m">&lt;?</span><span class="pi">xsl-output</span> <span class="at">default</span><span class="m">="</span><span class="av">xslt_output</span><span class="m">" ?&gt;</span></pre>
+      </div>
+    </div>
+    <div class="e"><span class="m">&lt;?</span><span class="pi">xml-stylesheet 
+        type="text/xml" href="tohtml.xsl"</span><span class="m">?&gt;</span></div>
+    <div class="e">
+      <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">bookstore</span><span class="m">&gt;</span></div>
+      <div>
+        <div class="e">
+          <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">name</span><span class="m">&gt;</span><span class="tx">BOOKSTORE</span><span class="m">&lt;/</span><span class="t">name</span><span class="m">&gt;</span></div>
+        </div>
+        <div class="e">
+          <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">row</span><span class="m">&gt;</span></div>
+          <div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">column</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:Harry Potter and the Philosopher's Stone</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:J.K. Rowling</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:Bloomsbury</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹1574.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:The Hobbit</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:J.R.R. Tolkien</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:HarperCollins</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹1199.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:1984</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:George Orwell</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:Secker and Warburg</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹1387.50</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">column</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">column</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:To Kill a Mockingbird</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:Harper Lee</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:J.B. Lippincott and Co.</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹1124.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:Pride and Prejudice</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:Jane Austen</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:T. Egerton</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹974.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:The Great Gatsby</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:F. Scott Fitzgerald</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:Charles Scribner's Sons</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹824.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">column</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">column</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:Little Women</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:Louisa May Alcott</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:Roberts Brothers</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹899.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:Jane Eyre</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:Charlotte Brontë</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:Smith, Elder and Co.</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹1049.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:Wuthering Heights</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:Emily Brontë</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:Thomas Cautley Newby</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹1124.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">column</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div class="e">
+              <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">column</span><span class="m">&gt;</span></div>
+              <div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:The Catcher in the Rye</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:J.D. Salinger</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:Little, Brown and Company</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹1199.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:Animal Farm</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:George Orwell</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:Secker and Warburg</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹749.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div class="e">
+                  <div class="c" STYLE="margin-left:1em;text-indent:-2em"><A href="#" onclick="return false" onfocus="h()" class="b"></A><span class="m">&lt;</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  <div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">title</span><span class="m">&gt;</span><span class="tx">Book-Name:Brave New World</span><span class="m">&lt;/</span><span class="t">title</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">author</span><span class="m">&gt;</span><span class="tx">Author:Aldous Huxley</span><span class="m">&lt;/</span><span class="t">author</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">publisher</span><span class="m">&gt;</span><span class="tx">Publisher:Chatto and Windus</span><span class="m">&lt;/</span><span class="t">publisher</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div class="e">
+                      <div STYLE="margin-left:1em;text-indent:-2em"><span class="b">&nbsp;</span><span class="m">&lt;</span><span class="t">price</span><span class="m">&gt;</span><span class="tx">Price:₹899.25</span><span class="m">&lt;/</span><span class="t">price</span><span class="m">&gt;</span></div>
+                    </div>
+                    <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">book</span><span class="m">&gt;</span></div>
+                  </div>
+                </div>
+                <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">column</span><span class="m">&gt;</span></div>
+              </div>
+            </div>
+            <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">row</span><span class="m">&gt;</span></div>
+          </div>
+        </div>
+        <div><span class="b">&nbsp;</span><span class="m">&lt;/</span><span class="t">bookstore</span><span class="m">&gt;</span></div>
+      </div>
+    </div>
+  </BODY>
+</HTML>

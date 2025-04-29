@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<head>
+    <title>RESUME</title>
+    <style>
+        body{
+     display: flex;
+     height: 100%;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(45deg,rgb(11, 143, 105),rgb(59, 112, 173));
+    
+    }
+        .main{
+            display:flex;
+            flex-direction: column;
+            justify-self: center;
+            width: 600px;
+            height: 1000px;
+            border: 2px solid black;
+            border-radius: 2%;
+            background-color: rgb(197, 233, 237);
+            overflow: hidden;
+            box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.2);
+        }
+        .sub{
+            display: flex;
+            flex-direction: row;
+            align-items:flex-start;
+            width: 100%;
+            height: 14%;
+            border-radius: 3%;
+            background-color:rgb(130, 194, 237);
+            
+
+        }
+        .sub .image-container{
+            width: 30%;
+            height: 100%;
+            border-radius: 3%;
+            background-color: rgb(12, 14, 14);
+        }
+        .sub #profile{
+            display: flex;
+            justify-self: center;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin: 8px auto 0px;
+        }
+        .sub #info{
+            padding-left: 10px;
+        }
+        .sub #info h3, .sub #info h4 ,.sub #info h5{
+         margin: 0;
+         padding: 0;
+     }
+     .main #sub2{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+     }
+     .main #sub2 #skill{
+        width: 30%;
+        height: 100%;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 5px;
+     }
+     .main #sub2 h5,.main #sub2 li{
+        padding: 0;
+        margin: 0;
+     }
+     .main #sub h4{
+        padding-top: auto;
+        padding-bottom: 2px;
+     }
+     #skill h4 {
+  margin-bottom: 5px;
+}
+
+#skill ul {
+  margin-top: 0;
+  padding-left: 20px;
+}
+.bar{
+    background: #fff;
+    height: 6px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.bar-fill{
+    height: 100%;
+    background: #00bcd4;
+
+}
+#skill label{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main #sub2 #Info{
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+}
+.main #sub2 #Info h4{
+    color: rgb(41, 18, 26);
+}
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;color: rgb(6, 0, 8);font-family: 'Courier New', Courier, monospace;">
+      RESUME
+    </h1>
+    <div class="main">
+        <div class="sub" style="font-family: 'Courier New', Courier, monospace;">
+          <div class="image-container">
+             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAANlBMVEXh4eGjo6OgoKDk5OTg4OCkpKTY2Ninp6exsbHV1dXc3NzDw8PR0dG+vr6urq63t7fKysrBwcGMZqvqAAAFaUlEQVR4nO2d3ZqjIAxAlSAgirDv/7ILdbprW6dV+Qv9cq46c+X5goCRxK4jCIIgCIIgCIIgCIIgCIIgCIIgCIIoDQBwPQY0979rX05ioNPjZKUcVqS006i777GEzlnJGOv/4/+S1n2L42we7TaWZq59cQkY7bCn9yM52LH2BcYB2u6GbxtIq1seq06+97s5Slf7Mq8C3H72uzla3mQYYTwQwHsYxwYVYRwO+gWG9hTBnRH0iq41xfmcoFdsa2kEcVbQK4qWoijkacG+l6L2ZR8H1AXBvlftBHE6ukw8wqbaF36UU+vElqGRTSqoayH0QWxjnIK7KugVm1gV+XJZsO8XXvvyPxMTwkaCeG2luKNqX/5nLk+kK/inUzAxg9QPU4N9mEJcCH0QsRuKuBD6ICLfncLFDdvGcEIexIOpmTeGtrbCe3TMcr+y6NoSb7n0YPgI8sfEMXaQ+mGKe0WcExiiTtjEbUp/DFFvTeMXC+zLBRmSYQOGXz/TfP9q0Y3Rgn2Pe8XXCXZtuPelPC5LE1C4022xSQz8aYz4yRT5VOqHabQh7kHqgxj7CLwgD2H0MEU/SKOf8pE/4QfiZlPsM+mNqIwp9mzpSkRCEXsq8YcLJ03uDE2EMOJObOIuDFx+C9zCG+CVi1lT5JnSLdeSGbjTF89cuBWZqX3Rp+DLWUXWzk24wk8eG2LIH3x30KcUmcKdu9jnxN6mkb3MC9Nhw2YOJT4B85tymU0A2zvj/Q/gB1YNZtqstrgzf9rBLbhT3J8BcOrX0ifGlPuCWkvohF36V0nWL1Z8SwUi6NmEEsu1DnH9Ic3cdNHaCwB8dMZapZS1xo38C0bnK6G+mXPefV+dM0EQBEEQBEEQBEEQRCuExAwP6MDt1/rPLyBknfTsJmPVIoc1k9gPclHWTG7WbWelALgYnQli/WvHttt/vKpxo2gxtehDo51Rcr8X3ZOpVMbppoIZkr92J2xvNXsb0sS1L/0A0PHZLsMJu/+Ww2JnjvtNBoBw9ordxtI6gXe8Cqdi9P5JKofxAB/AbA93oPtoKe2MLJAgJhkdvQdHJidMvb+ESRa+jaQ0SAarH55Jw7dxZH6w1tbrulHtvMFO5tiryicyQduMfqtjzQ6uoE2m8fngyEw1xznD/LLrKKucuTncYTaJY40utcc7zCZRlKVnnLMNWOMpfLzvyIm81DBT8hRxwVtwo1jwmG0VwYKKJSfRZ8UiAzW+XDtCsUhhVILWFxGKBTrUJ+iaEEP+jgtQ7SZcYTb3OJ2r+gVy71ErhzD/khHd+DGBYtbcRoouSdGGecsU45uzxJO1EW+CtojxZG27ENkkOA1ZWw3XXysCOdeLs5WhOchcbSpq+3nyZsJTtJyLI38Dm8rjlOVv2p6gU3AMJboMJ2ike50ijSXgeAFzego1lqiWxijWWKLWqliw78L5rhdJBEt2zhAVFNlS8qU36EO9BJIKDmXfIsJYOIpsKf39wBPfb0wiWOEbkKALRpEtNV50Q7npxk8ydd7kl1oXK/YfKvOitOyr0WcKZBcrfzMQcp84YbL6wa+8UypD8dWZjCMVy1ctc+1v/D6mttoPwP9kON/G2B9EZ/dBJH/rxiymM8IefuRD8Sf8pEPXZRD0lOyoKesnlB2WQKc57s1kvQOlnwBhouPIeoPsBnwEummJqplZJtxlQd2tc5m6mOJgg2qjwxmAmH7vs/d7+NSEuOLpGeBe8ngVTShBnASi9f0Q0I23OrYDFZaDdSP6u2+XtZD0Vo24Ixr+OSy2tfLRFwC4FnPwlFIOd/zv4DYL3WIJ8B4Q8KpiDIibWNuRIwiCIAiCIAiCIAiCIAiCIAiCIAiiRf4CPHlDC7+BCBEAAAAASUVORK5CYII=" 
+             id="profile"
+            >
+          </div>
+          <div id="info">
+            <h3 style="font-weight: bold;padding-top: 10px;">ANIKET SHINDE</h3>
+            <h4 style="padding-top: 10px;">Student</h4>
+            <h5 style="padding-top: 10px;"><address>Gulmohar colony,shinde choulk,gargoti-416209,kolhapur,maharashtra<br>phone-no:8669198382 email-3496aniket@gmail.com</address></h5>
+          </div>
+          </div>
+          <div id="sub2">
+             <div id="skill">
+                <h4>Skiils:</h4>
+                <ul style="list-style-type: circle;">
+                    <li><h5>Python</h5></li>
+                    <li><h5>java</h5></li>
+                    <li><h5>C++</h5></li>
+                </ul>
+                <h4>Languages:</h4>
+                <label>English</label>
+                <div class="bar">
+                    <div class="bar-fill" style="width: 80%;"></div>
+                </div>
+                <label>Hindi</label>
+                <div class="bar">
+                    <div class="bar-fill" style="width: 70%;"></div>
+                </div>
+                <label>Marathi</label>
+                <div class="bar">
+                    <div class="bar-fill" style="width: 90%;"></div>
+                </div>
+                <div id="EDUCATION">
+                <h4>EDUCATION:</h4>
+                <ul style="list-style-type: circle;">
+                    <li><h5>BE in Computer Engineering</h5></li>
+                    <li><h5>HSC</h5></li>
+                    <li><h5>SSC</h5></li>
+                </ul>
+                </div>
+                <div id="soft-skill">
+                <h4>Soft-Skills:</h4>
+                <ul style="list-style-type: circle;">
+                    <li><h5>Teamwork</h5></li>
+                    <li><h5>Leadership</h5></li>
+                    <li><h5>Problem Solving</h5></li>
+                </ul>
+                <h4>projects</h4>
+                <ul style="list-style-type: circle;">
+                    <li><h5>Quiz APP</h5></li>
+                    <li><h5>Chatbot</h5></li>
+                    <li><h5>Plant disease Detection</h5></li>
+                </div>
+
+             </div>
+             <div id="Info">
+                <h4>Profile:</h4>
+                <p style="font-weight: bold;">My name is Aniket Shinde. I am a student of BE in Computer Engineering. I am a hardworking and dedicated person. I have good knowledge of Python, Java, and C++. I am looking for an internship opportunity to enhance my skills and gain practical experience in the field.</p>
+                <h4>Experience:</h4>
+                <p style="font-weight: bold;padding: 10px;margin: 0;padding-top: 2px;">No Experience</p>
+                <h4>Skiils:</h4>
+                <label style="font-weight: bold;">Android</label>
+                <div class="bar">
+                    <div class="bar-fill" style="width: 50%;"></div>
+             </div>
+                <label style="font-weight: bold;">Flutter</label>
+                <div class="bar">
+                    <div class="bar-fill" style="width: 60%;"></div>
+                </div>
+                <label style="font-weight: bold;">Web Development</label>
+                <div class="bar">
+                    <div class="bar-fill" style="width: 70%;"></div>
+                </div>
+                <h4>Hobbies:</h4>
+                <ul style="list-style-type: circle;">
+                    <li><h5>Reading Books</h5></li>
+                    <li><h5>Playing Cricket</h5></li>
+                    <li><h5>Listening Music</h5></li>
+                </ul>
+                
+            </div>
+        
+            </div>
+          </div>
+         </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="book.css"?>
+<bookstore>
+  <name>BOOKSTORE</name>
+  <row>
+    <column>
+      <book>
+        <title>Book-Name:Harry Potter and the Philosopher's Stone</title>
+        <author>Author:J.K. Rowling</author>
+        <publisher>Publisher:Bloomsbury</publisher>
+        <price>Price:₹1574.25</price>
+      </book>
+      <book>
+        <title>Book-Name:The Hobbit</title>
+        <author>Author:J.R.R. Tolkien</author>
+        <publisher>Publisher:HarperCollins</publisher>
+        <price>Price:₹1199.25</price>
+      </book>
+      <book>
+        <title>Book-Name:1984</title>
+        <author>Author:George Orwell</author>
+        <publisher>Publisher:Secker and Warburg</publisher>
+        <price>Price:₹1387.50</price>
+      </book>
+    </column>
+    <column>
+      <book>
+        <title>Book-Name:To Kill a Mockingbird</title>
+        <author>Author:Harper Lee</author>
+        <publisher>Publisher:J.B. Lippincott and Co.</publisher>
+        <price>Price:₹1124.25</price>
+      </book>
+      <book>
+        <title>Book-Name:Pride and Prejudice</title>
+        <author>Author:Jane Austen</author>
+        <publisher>Publisher:T. Egerton</publisher>
+        <price>Price:₹974.25</price>
+      </book>
+      <book>
+        <title>Book-Name:The Great Gatsby</title>
+        <author>Author:F. Scott Fitzgerald</author>
+        <publisher>Publisher:Charles Scribner's Sons</publisher>
+        <price>Price:₹824.25</price>
+      </book>
+    </column>
+    <column>
+      <book>
+        <title>Book-Name:Little Women</title>
+        <author>Author:Louisa May Alcott</author>
+        <publisher>Publisher:Roberts Brothers</publisher>
+        <price>Price:₹899.25</price>
+      </book>
+      <book>
+        <title>Book-Name:Jane Eyre</title>
+        <author>Author:Charlotte Brontë</author>
+        <publisher>Publisher:Smith, Elder and Co.</publisher>
+        <price>Price:₹1049.25</price>
+      </book>
+      <book>
+        <title>Book-Name:Wuthering Heights</title>
+        <author>Author:Emily Brontë</author>
+        <publisher>Publisher:Thomas Cautley Newby</publisher>
+        <price>Price:₹1124.25</price>
+      </book>
+    </column>
+    <column>
+      <book>
+        <title>Book-Name:The Catcher in the Rye</title>
+        <author>Author:J.D. Salinger</author>
+        <publisher>Publisher:Little, Brown and Company</publisher>
+        <price>Price:₹1199.25</price>
+      </book>
+      <book>
+        <title>Book-Name:Animal Farm</title>
+        <author>Author:George Orwell</author>
+        <publisher>Publisher:Secker and Warburg</publisher>
+        <price>Price:₹749.25</price>
+      </book>
+      <book>
+        <title>Book-Name:Brave New World</title>
+        <author>Author:Aldous Huxley</author>
+        <publisher>Publisher:Chatto and Windus</publisher>
+        <price>Price:₹899.25</price>
+      </book>
+    </column>
+  </row>
+</bookstore>
