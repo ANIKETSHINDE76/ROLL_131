@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            display: flex;
+            height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            flex-direction: column;
+            align-items: center;
+            background:linear-gradient(90deg,rgb(101, 175, 189),rgb(89, 3, 110));
+        }
+        h1{
+            background: linear-gradient(45deg,rgb(66, 177, 196),rgb(99, 99, 189));
+            padding: 10px 10px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 30px rgba(13, 13, 13, 0.5);
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 40px; 
+            margin-top: 20px;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; 
+        }
+        a {
+            display: inline-block;
+            padding: 10px 10px;
+            text-decoration: none;
+            background: linear-gradient(45deg,rgb(66, 177, 196),rgb(99, 99, 189));
+            border-radius: 5px;
+            text-align: center;
+            width: 150px; 
+            box-shadow: 0px 10px 30px rgba(13, 13, 13, 0.5);
+        }
+        a:hover {
+    transform: scale(1.1); 
+    background: linear-gradient(45deg, #00cc88, #ff6600); 
+    transition: 0.3s ease;
+}
+
+    </style>
+</head>
+<body>
+    <h1>XML Assignments</h1>
+    <div class="container">
+        <div class="column">
+            <a href="./Xml/Books.xml">XML WITH CSS BookStore</a>
+            <a href="./Xml/employees.xml">Employee</a>
+            
+            
+        </div>
+        <div class="column">
+            <a href="./Xml/library.xml">library</a>
+            <a href="./Xml/students.xml">Student</a>
+        </div>
+    </div>
+    <h1>XSL Assignment</h1>
+    <div class="column">
+        <a href="./Xml/tohtml_output.htm">XML TO HTML</a>
+    </div>
+    
+</body>
+</html>
